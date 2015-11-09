@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
-  
+
   line-height: 1.2;
   margin: 1em 0 15px;
   padding: 0;
@@ -44,23 +44,23 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-  
-h1 {  
+
+h1 {
   font-size: 30px;
   a {
     color: inherit;
   }
 }
 
-h2 {  
+h2 {
   font-size: 24px;
 }
 
-h3 {  
+h3 {
   font-size: 20px;
 }
 
-h4 {  
+h4 {
   font-size: 18px;
   color: $gray;
 }
@@ -135,8 +135,7 @@ figure, caption {
   font-family: $serif;
   font-style: italic;
   font-size: 75%;
-  margin-left: 30px;
-  margin-top: -15px;
+  margin-top: 15px;
 
 }
 
@@ -189,7 +188,7 @@ figure, caption {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
-  
+
   @include mobile {
     text-align: center;
   }
@@ -239,7 +238,7 @@ figure, caption {
   color: $gray;
   font-size: 16px;
   font-weight: 400;
-  
+
   @include mobile {
     margin: 3px 0;
   }
@@ -251,7 +250,7 @@ nav {
   font-family: "proxima-nova", $helveticaNeue;
   font-weight: 400;
   font-size: 18px;
-  
+
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -287,7 +286,7 @@ nav {
   border-bottom: none;
 }
 
-.post { 
+.post {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
